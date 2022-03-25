@@ -1,0 +1,31 @@
+.product img{
+    width: 260px;
+    height: 260px;
+    border-radius: 15px;
+    margin: 8px;
+}
+.product{
+    width: 300px;
+    height: 510px;
+    border: 2px solid rgb(21, 185, 250);
+    border-radius: 12px;
+    position: relative;
+}
+.product-name{
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 25px;
+    margin-top: 8px;
+
+}
+.product-info{
+    margin: 0 15px;
+}
+.btn-card{
+    width: 100%;
+    /* padding-bottom: 20px; */
+    border-radius:20px;
+    border: none;
+    position: absolute;
+    bottom: 0;
+}
