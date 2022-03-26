@@ -1,12 +1,23 @@
 import React from 'react';
+import './Cart.css'
 
-const Cart = ({cart}) => {
+const Cart = (props) => {
+    const {cart} = props;
+
+    let name = '';
+    for(const product of cart){
+        name = product.name;
+    }
     return (
-        <div>
-            <h4>order summary</h4>
-            <p>selected: {cart.length}</p>
+        <div className='cart'>
+            <h2>Selected Clothes</h2>
+            {/* <p>selected: {cart.length}</p> */}
+            <p>Name:{name}</p>
+            <button className="btn">Choose 1 For Me</button><br></br><br></br>
+            <button className="btn">Choose Again</button>
         </div>
     );
+    
 };
 
 export default Cart;
