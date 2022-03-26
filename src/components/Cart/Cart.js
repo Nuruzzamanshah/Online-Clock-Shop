@@ -11,7 +11,6 @@ const Cart = (props) => {
     return (
         <div className='cart'>
             <h2>Selected Clothes</h2>
-            {/* <p>selected: {cart.length}</p> */}
             <p>Name:{name}</p>
             <button className="btn">Choose 1 For Me</button><br></br><br></br>
             <button className="btn">Choose Again</button>
