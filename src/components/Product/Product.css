@@ -28,4 +28,10 @@
     border: none;
     position: absolute;
     bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn-card .btn-text{
+    margin-right: 7px;
 }
