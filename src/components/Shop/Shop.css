@@ -12,3 +12,15 @@ footer{
     grid-template-columns: 1fr 1fr;
     gap: 50px;
 }
+
+@media screen and (width: 375px){
+    .products-container{
+        grid-template-columns: 1fr;
+    }
+    footer{
+        grid-template-columns: 1fr;
+    }
+    .shop-container{
+        grid-template-columns: 1fr;
+    }
+}
